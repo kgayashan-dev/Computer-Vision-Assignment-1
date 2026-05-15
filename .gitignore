@@ -6,11 +6,10 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
 # macOS
 .DS_Store
 
-# VS Code
+# VS Code =
 .vscode/
 
 # JetBrains IDEs
