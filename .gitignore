@@ -1,0 +1,39 @@
+# Virtual Environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment files
+.env
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Generated images/results
+*.png
+*.jpg
+*.jpeg
+*.tif
+
+# Exceptions (keep original assignment images)
+!img1.jpg
+!img2.tif
+!img3.jpg
