@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 
 img2 = cv2.imread("img2.tif", cv2.IMREAD_GRAYSCALE)
 img3 = cv2.imread("img3.jpg", cv2.IMREAD_GRAYSCALE)
@@ -36,5 +36,6 @@ plt.subplot(2, 2, 4)
 plt.imshow(median_5, cmap="gray")
 plt.title("Median Filter k=5")
 plt.axis("off")
+
 
 plt.show()
